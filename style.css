@@ -1,0 +1,189 @@
+body
+{
+    background-color:darkred;
+    margin: 0;
+    height: 100%;
+    width:100%;
+}
+#container
+{
+    position: relative;
+    background-color: black;
+    margin: 30px auto;
+    height:520px;
+    width:25%;
+    overflow: hidden;
+}
+.line
+{
+   position: absolute;
+    height: 150px;
+    width:4%;
+    margin:48%;
+    background-color: slategray;
+    
+}
+#line1
+{
+    top:-150px;
+}
+#line2
+{
+    top:150px;
+}
+#line3
+{
+    top:-200px;
+}
+#score
+{
+    top:150px;
+    left:50px;
+    background-color: antiquewhite;
+    width:150px;
+    height:80px;
+    line-height: 90px;
+    font-family: Chaparral Pro;
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: 5px 5px gray;
+    text-align: center;
+    position: relative;
+}
+.car
+{
+    position: absolute;
+    width:40px;
+    height: 40px;
+    border-radius: 10px;
+}
+#car
+{
+    position: absolute;
+    background-color:#fc3;
+    bottom:8%;
+    left:60%;
+}
+.fglass
+{
+    position: absolute;
+    background-color: slategray;
+    width:60%;
+    height: 20%;
+    border-radius: 0px 0px 5px 5px;
+    top: 15%;
+    left:20%;
+}
+.bglass
+{
+    position: absolute;
+    background-color: slategray;
+    width:60%;
+    border-radius: 0px 0px 5px 5px;
+    height: 20%;
+    top:70%;
+    left:20%;
+}.f_l_light
+{
+    position: absolute;
+    background-color: floralwhite;
+    width:40%;
+    height:20%;
+    top: -12%;
+    left:7%;
+    border-radius: 10px 10px 0px 0px ;
+}
+.f_r_light
+{
+    position: absolute;
+    background-color: floralwhite;
+    width:40%;
+    height:20%;
+    top: -12%;
+    left:60%;
+    border-radius: 10px 10px 0px 0px ;
+}
+.f_l_tyre
+{
+    position: absolute;
+    background-color:darkgray;
+    width:20%;
+    height:20%;
+    left:-20%;
+    top:15%;
+    border-radius:10px 0px 0 10px;
+}
+.f_r_tyre
+{
+    position: absolute;
+    background-color:darkgray;
+    width:20%;
+    height:20%;
+    left:99%;
+    top:15%;
+    border-radius:0px 10px 10px 0px;
+}
+.b_l_tyre
+{
+    position: absolute;
+    background-color:darkgray;
+    width:20%;
+    height:20%;
+    left:-20%;
+    top:70%;
+    border-radius:10px 0px 0 10px;
+}
+.b_r_tyre
+{
+    position: absolute;
+    background-color:darkgray;
+    width:20%;
+    height:20%;
+    left:99%;
+    top:70%;
+    border-radius:0px 10px 10px 0px;
+}
+#car1
+{
+    top:-200px;
+    background-color:deepskyblue;
+    left:50%;
+}
+#car2
+{
+    top:-300px;
+    background-color:deepskyblue;
+    left:30%;
+}
+#car3
+{
+    top:-450px;
+    background-color:deepskyblue;
+    left:40%;
+}
+#restart_div
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    background-color: #292929;
+    font-size: 40px;
+    display:none;
+}
+#restart
+{
+    background-color:#8a64ff;
+    padding:25px;
+    width:100%;
+    text-align: center;
+    margin-top: 30%;
+    border: none;
+    color:whitesmoke;
+}
+small
+{
+    font-size: 15px;
+}
+
